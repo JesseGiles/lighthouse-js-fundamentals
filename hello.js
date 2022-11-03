@@ -5,3 +5,10 @@ const sayHello = function (name) {
 sayHello("Arnie");
 sayHello("JCVD");
 sayHello("Stallone");
+
+const returnSayHello = function (name) {
+  return "Hello, " + name;
+}
+
+const greeting = returnSayHello("Kurt Russell");
+console.log(greeting);
