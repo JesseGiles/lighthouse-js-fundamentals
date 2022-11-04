@@ -8,6 +8,8 @@ for (let i = 0; i < amounts.length; i++) {
 
 console.log('Order total is: ', total);
 
+//alternatively
+
 for (let amount of amounts) {
   total += amount;
 }
